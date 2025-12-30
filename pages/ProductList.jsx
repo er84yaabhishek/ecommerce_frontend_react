@@ -24,7 +24,7 @@ function ProductList() {
         setError(error.message);
         setLoading(false);
       });
-  }, []);
+  }, [BASEURL]);
 
   if (loading) {
     return <div className="text-center mt-10">Loading...</div>;
